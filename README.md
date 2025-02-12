@@ -1,8 +1,7 @@
 # git--demo
 
 
-
-No commits yet
+# git session":-
 -demo> git branch
 PS C:\Users\Prerana\Documents\project\git-demo> git checkout -b dev      
 Switched to a new branch 'dev'
@@ -196,3 +195,62 @@ PS C:\Users\Prerana\Documents\project\git-demo> git commit -m "added new dev.txt
  1 file changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 new_dev.txt
 PS C:\Users\Prerana\Documents\project\git-demo>
+
+
+#github session:-
+PS C:\Users\Prerana\Documents\project\github> git clone https://github.com/prernask/git--demo.git
+Cloning into 'git--demo'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)    
+Receiving objects: 100% (6/6), done.
+PS C:\Users\Prerana\Documents\project\github> git sttaus
+git: 'sttaus' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+PS C:\Users\Prerana\Documents\project\github> git status
+fatal: not a git repository (or any of the parent directories): .git
+PS C:\Users\Prerana\Documents\project\github> cd git-demo
+cd : Cannot find path 
+'C:\Users\Prerana\Documents\project\github\git-demo' because it does 
+not exist.
+At line:1 char:1
++ cd git-demo
++ ~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\Preran...github  
+   \git-demo:String) [Set-Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Command  
+   s.SetLocationCommand
+
+PS C:\Users\Prerana\Documents\project\github> cd git--demo
+PS C:\Users\Prerana\Documents\project\github\git--demo> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+PS C:\Users\Prerana\Documents\project\github\git--demo> git add .  
+PS C:\Users\Prerana\Documents\project\github\git--demo> git commit -m "added my msg"
+PS C:\Users\Prerana\Documents\project\github\git--demo> git push origin main
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/prernask/git--demo.git/'
+it/'
+PS C:\Users\Prerana\Documents\project\github\git--demo> git status       
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+PS C:\Users\Prerana\Documents\project\github\git--demo> git push origin/main
+fatal: 'origin/main' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+PS C:\Users\Prerana\Documents\project\github\git--demo> git push origin main
+PS C:\Users\Prerana\Documents\project\github\git--demo> git push origin main
+info: please complete authentication in your browser...
+Everything up-to-date
+PS C:\Users\Prerana\Documents\project\github\git--demo> git push origin main
+Everything up-to-date
+PS C:\Users\Prerana\Documents\project\github\git--demo>
