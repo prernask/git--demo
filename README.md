@@ -344,9 +344,19 @@ nothing to commit, working tree clean
 PS C:\Users\Prerana\Documents\project\github\git--demo>
 
 
+# added file new from local to git repo and commit changes also
 
+PS C:\Users\Prerana\Documents\project\github\git--demo> git add new.py
+PS C:\Users\Prerana\Documents\project\github\git--demo> git commit -m "added my msg"
+[main ba13207] added my msg
+ 1 file changed, 27 insertions(+)
+PS C:\Users\Prerana\Documents\project\github\git--demo> git status    
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
 
-
+nothing to commit, working tree clean
+PS C:\Users\Prerana\Documents\project\github\git--demo>
 
 
 
