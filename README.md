@@ -253,4 +253,109 @@ info: please complete authentication in your browser...
 Everything up-to-date
 PS C:\Users\Prerana\Documents\project\github\git--demo> git push origin main
 Everything up-to-date
+PS C:\Users\Prerana\Documents\project\github\git--demo
+
+
+
+# added file from local to github repo
+
+PS C:\Users\Prerana\Documents\project\github> cd git--demo                
+PS C:\Users\Prerana\Documents\project\github\git--demo> git add .
+PS C:\Users\Prerana\Documents\project\github\git--demo> git status                  
+On branch main
+Your branch and 'origin/main' have diverged,
+and have 1 and 1 different commits each, respectively.
+  (use "git pull" if you want to integrate the remote branch with yours)
+
+All conflicts fixed but you are still merging.
+  (use "git commit" to conclude merge)
+
+Changes to be committed:
+        modified:   README.md
+
+PS C:\Users\Prerana\Documents\project\github\git--demo> git commit -m "added my msg"
+[main 5ccdf86] added my msg
+PS C:\Users\Prerana\Documents\project\github\git--demo> git status
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+PS C:\Users\Prerana\Documents\project\github\git--demo> git commit -m "added my msg"
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+PS C:\Users\Prerana\Documents\project\github\git--demo> git status
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+PS C:\Users\Prerana\Documents\project\github\git--demo> git add .   
+PS C:\Users\Prerana\Documents\project\github\git--demo> git add text.py
+PS C:\Users\Prerana\Documents\project\github\git--demo> git status     
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+PS C:\Users\Prerana\Documents\project\github\git--demo> git commit -m "added my msg"
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+PS C:\Users\Prerana\Documents\project\github\git--demo> git status
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+PS C:\Users\Prerana\Documents\project\github\git--demo> dir            
+
+
+    Directory: C:\Users\Prerana\Documents\project\github\git--demo
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----        12-02-2025     13:51           9951 README.md
+-a----        12-02-2025     13:42             25 text.py
+
+
+PS C:\Users\Prerana\Documents\project\github\git--demo> git push origin main
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 556 bytes | 556.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/prernask/git--demo.git
+   b82ce73..5ccdf86  main -> main
+PS C:\Users\Prerana\Documents\project\github\git--demo> git push origin main
+Everything up-to-date
+PS C:\Users\Prerana\Documents\project\github\git--demo> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
 PS C:\Users\Prerana\Documents\project\github\git--demo>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
